@@ -1,201 +1,463 @@
-Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+Notices for file(s):
+  /root/init
+  /system/app/CertInstaller/CertInstaller.apk
+  /system/app/CompanionDeviceManager/CompanionDeviceManager.apk
+  /system/app/DeskClock/DeskClock.apk
+  /system/app/HTMLViewer/HTMLViewer.apk
+  /system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk
+  /system/app/PrintSpooler/PrintSpooler.apk
+  /system/app/Stk/Stk.apk
+  /system/app/WAPPushManager/WAPPushManager.apk
+  /system/bin/am
+  /system/bin/app_process32
+  /system/bin/app_process64
+  /system/bin/cmd
+  /system/bin/dexdump
+  /system/bin/drmserver
+  /system/bin/dumpsys
+  /system/bin/hid
+  /system/bin/ime
+  /system/bin/input
+  /system/bin/logcat
+  /system/bin/logwrapper
+  /system/bin/media
+  /system/bin/mediaserver
+  /system/bin/monkey
+  /system/bin/pm
+  /system/bin/requestsync
+  /system/bin/run-as
+  /system/bin/service
+  /system/bin/svc
+  /system/bin/wm
+  /system/etc/fonts.xml
+  /system/etc/permissions/android.software.live_wallpaper.xml
+  /system/fonts/AndroidClock.ttf
+  /system/fonts/DroidSansBengali.ttf
+  /system/fonts/DroidSansGujarati.ttf
+  /system/fonts/DroidSansHindi.ttf
+  /system/fonts/DroidSansKannada.ttf
+  /system/fonts/DroidSansMono.ttf
+  /system/fonts/DroidSansMyanmar-Zawgyi.ttf
+  /system/fonts/DroidSansMyanmar.ttf
+  /system/fonts/DroidSansOdia.ttf
+  /system/fonts/DroidSansPunjabi.ttf
+  /system/fonts/DroidSansTamil.ttf
+  /system/fonts/DroidSansTelugu.ttf
+  /system/fonts/MYingHeiHKForOnePlus-W4.ttf
+  /system/fonts/MYingHeiPRC-W2.ttf
+  /system/fonts/MYingHeiPRC-W3.ttf
+  /system/fonts/MYingHeiPRC-W4.ttf
+  /system/fonts/MYingHeiPRC-W5.ttf
+  /system/fonts/MYingHeiPRC-W7.ttf
+  /system/fonts/MYingHeiPRC-W8.ttf
+  /system/fonts/Roboto-Black_subset.ttf
+  /system/fonts/Roboto-Bold_subset.ttf
+  /system/fonts/Roboto-Light_subset.ttf
+  /system/fonts/Roboto-Medium_subset.ttf
+  /system/fonts/Roboto-Regular_subset.ttf
+  /system/fonts/Roboto-Thin_subset.ttf
+  /system/fonts/SlateForOnePlus-Black.ttf
+  /system/fonts/SlateForOnePlus-Bold.ttf
+  /system/fonts/SlateForOnePlus-Book.ttf
+  /system/fonts/SlateForOnePlus-Light.ttf
+  /system/fonts/SlateForOnePlus-Medium.ttf
+  /system/fonts/SlateForOnePlus-Regular.ttf
+  /system/fonts/SlateForOnePlus-Thin.ttf
+  /system/framework/am.jar
+  /system/framework/framework-res.apk
+  /system/framework/hid.jar
+  /system/framework/input.jar
+  /system/framework/media_cmd.jar
+  /system/framework/monkey.jar
+  /system/framework/requestsync.jar
+  /system/framework/svc.jar
+  /system/lib/drm/libfwdlockengine.so
+  /system/lib/libandroid_runtime.so
+  /system/lib/libandroidfw.so
+  /system/lib/libaudioflinger.so
+  /system/lib/libcamera_client.so
+  /system/lib/libcameraservice.so
+  /system/lib/libcutils.a
+  /system/lib/libcutils.so
+  /system/lib/libcutils.vendor.a
+  /system/lib/libdrmframework.so
+  /system/lib/libhardware.so
+  /system/lib/libhardware_legacy.so
+  /system/lib/libhwui.so
+  /system/lib/libinit.a
+  /system/lib/liblogwrap.a
+  /system/lib/liblogwrap.so
+  /system/lib/libmedia.so
+  /system/lib/libmedia2_jni.so
+  /system/lib/libmedia_helper.a
+  /system/lib/libmedia_helper.so
+  /system/lib/libmedia_jni.so
+  /system/lib/libmedia_omx.so
+  /system/lib/libmediaplayerservice.so
+  /system/lib/libmtp.so
+  /system/lib/libmusicbundle.a
+  /system/lib/libnativehelper.so
+  /system/lib/libnativewindow.so
+  /system/lib/libnetutils.so
+  /system/lib/libpixelflinger.so
+  /system/lib/libpower.so
+  /system/lib/libregistermsext.a
+  /system/lib/libreverb.a
+  /system/lib/libserviceutility.so
+  /system/lib/libsoundpool.so
+  /system/lib/libstagefright.so
+  /system/lib/libstagefright_amrnb_common.so
+  /system/lib/libstagefright_codecbase.so
+  /system/lib/libstagefright_enc_common.so
+  /system/lib/libstagefright_flacdec.so
+  /system/lib/libstagefright_foundation.so
+  /system/lib/libstagefright_httplive.so
+  /system/lib/libstagefright_omx.so
+  /system/lib/libstagefright_omx_utils.so
+  /system/lib/libstagefright_soft_aacdec.so
+  /system/lib/libstagefright_soft_aacenc.so
+  /system/lib/libstagefright_soft_amrdec.so
+  /system/lib/libstagefright_soft_amrnbenc.so
+  /system/lib/libstagefright_soft_amrwbenc.so
+  /system/lib/libstagefright_soft_flacdec.so
+  /system/lib/libstagefright_soft_flacenc.so
+  /system/lib/libstagefright_soft_g711dec.so
+  /system/lib/libstagefright_soft_gsmdec.so
+  /system/lib/libstagefright_soft_mp3dec.so
+  /system/lib/libstagefright_soft_mpeg4dec.so
+  /system/lib/libstagefright_soft_mpeg4enc.so
+  /system/lib/libstagefright_soft_rawdec.so
+  /system/lib/libstagefright_soft_vorbisdec.so
+  /system/lib/libstagefright_soft_vpxdec.so
+  /system/lib/libui.so
+  /system/lib/libutils.a
+  /system/lib/libutils.so
+  /system/lib/libutilscallstack.so
+  /system/lib/vndk-28/libhardware_legacy.so
+  /system/lib/vndk-28/libmedia_helper.so
+  /system/lib/vndk-28/libmedia_omx.so
+  /system/lib/vndk-28/libnetutils.so
+  /system/lib/vndk-28/libpagemap.so
+  /system/lib/vndk-28/libpower.so
+  /system/lib/vndk-28/libstagefright_amrnb_common.so
+  /system/lib/vndk-28/libstagefright_enc_common.so
+  /system/lib/vndk-28/libstagefright_flacdec.so
+  /system/lib/vndk-28/libstagefright_foundation.so
+  /system/lib/vndk-28/libstagefright_omx.so
+  /system/lib/vndk-28/libstagefright_omx_utils.so
+  /system/lib/vndk-28/libstagefright_soft_aacdec.so
+  /system/lib/vndk-28/libstagefright_soft_aacenc.so
+  /system/lib/vndk-28/libstagefright_soft_amrdec.so
+  /system/lib/vndk-28/libstagefright_soft_amrnbenc.so
+  /system/lib/vndk-28/libstagefright_soft_amrwbenc.so
+  /system/lib/vndk-28/libstagefright_soft_flacdec.so
+  /system/lib/vndk-28/libstagefright_soft_flacenc.so
+  /system/lib/vndk-28/libstagefright_soft_g711dec.so
+  /system/lib/vndk-28/libstagefright_soft_gsmdec.so
+  /system/lib/vndk-28/libstagefright_soft_mp3dec.so
+  /system/lib/vndk-28/libstagefright_soft_mpeg4dec.so
+  /system/lib/vndk-28/libstagefright_soft_mpeg4enc.so
+  /system/lib/vndk-28/libstagefright_soft_rawdec.so
+  /system/lib/vndk-28/libstagefright_soft_vorbisdec.so
+  /system/lib/vndk-28/libstagefright_soft_vpxdec.so
+  /system/lib/vndk-28/libui.so
+  /system/lib/vndk-sp-28/libcutils.so
+  /system/lib/vndk-sp-28/libhardware.so
+  /system/lib/vndk-sp-28/libutils.so
+  /system/lib/vndk-sp-28/libutilscallstack.so
+  /system/lib64/drm/libfwdlockengine.so
+  /system/lib64/extractors/libaacextractor.so
+  /system/lib64/extractors/libamrextractor.so
+  /system/lib64/extractors/libflacextractor.so
+  /system/lib64/extractors/libmidiextractor.so
+  /system/lib64/extractors/libmkvextractor.so
+  /system/lib64/extractors/libmp4extractor.so
+  /system/lib64/extractors/libmpeg2extractor.so
+  /system/lib64/extractors/liboggextractor.so
+  /system/lib64/extractors/libwavextractor.so
+  /system/lib64/libandroid_runtime.so
+  /system/lib64/libandroidfw.so
+  /system/lib64/libaudioflinger.so
+  /system/lib64/libcamera_client.so
+  /system/lib64/libcameraservice.so
+  /system/lib64/libcutils.a
+  /system/lib64/libcutils.so
+  /system/lib64/libcutils.vendor.a
+  /system/lib64/libdrmframework.so
+  /system/lib64/libhardware.so
+  /system/lib64/libhardware_legacy.so
+  /system/lib64/libhwui.so
+  /system/lib64/libinit.a
+  /system/lib64/liblogcat.so
+  /system/lib64/liblogwrap.a
+  /system/lib64/liblogwrap.so
+  /system/lib64/libmedia.so
+  /system/lib64/libmedia2_jni.so
+  /system/lib64/libmedia_helper.a
+  /system/lib64/libmedia_helper.so
+  /system/lib64/libmedia_jni.so
+  /system/lib64/libmedia_omx.so
+  /system/lib64/libmediaplayerservice.so
+  /system/lib64/libmtp.so
+  /system/lib64/libmusicbundle.a
+  /system/lib64/libnativehelper.so
+  /system/lib64/libnativewindow.so
+  /system/lib64/libnetutils.so
+  /system/lib64/libpagemap.so
+  /system/lib64/libpixelflinger.so
+  /system/lib64/libpower.so
+  /system/lib64/libregistermsext.a
+  /system/lib64/libreverb.a
+  /system/lib64/libserviceutility.so
+  /system/lib64/libsoundpool.so
+  /system/lib64/libstagefright.so
+  /system/lib64/libstagefright_amrnb_common.so
+  /system/lib64/libstagefright_codecbase.so
+  /system/lib64/libstagefright_enc_common.so
+  /system/lib64/libstagefright_foundation.so
+  /system/lib64/libstagefright_httplive.so
+  /system/lib64/libstagefright_omx.so
+  /system/lib64/libstagefright_omx_utils.so
+  /system/lib64/libui.so
+  /system/lib64/libutils.a
+  /system/lib64/libutils.so
+  /system/lib64/libutilscallstack.so
+  /system/lib64/vndk-28/libhardware_legacy.so
+  /system/lib64/vndk-28/libmedia_helper.so
+  /system/lib64/vndk-28/libmedia_omx.so
+  /system/lib64/vndk-28/libnetutils.so
+  /system/lib64/vndk-28/libpagemap.so
+  /system/lib64/vndk-28/libpower.so
+  /system/lib64/vndk-28/libstagefright_amrnb_common.so
+  /system/lib64/vndk-28/libstagefright_enc_common.so
+  /system/lib64/vndk-28/libstagefright_flacdec.so
+  /system/lib64/vndk-28/libstagefright_foundation.so
+  /system/lib64/vndk-28/libstagefright_omx.so
+  /system/lib64/vndk-28/libstagefright_omx_utils.so
+  /system/lib64/vndk-28/libui.so
+  /system/lib64/vndk-sp-28/libcutils.so
+  /system/lib64/vndk-sp-28/libhardware.so
+  /system/lib64/vndk-sp-28/libutils.so
+  /system/lib64/vndk-sp-28/libutilscallstack.so
+  /system/priv-app/CalendarProvider/CalendarProvider.apk
+  /system/priv-app/Contacts/Contacts.apk
+  /system/priv-app/ContactsProvider/ContactsProvider.apk
+  /system/priv-app/DownloadProvider/DownloadProvider.apk
+  /system/priv-app/InputDevices/InputDevices.apk
+  /system/priv-app/MediaProvider/MediaProvider.apk
+  /system/priv-app/OPCellBroadcastReceiver/OPCellBroadcastReceiver.apk
+  /system/priv-app/OPSettingsProvider/OPSettingsProvider.apk
+  /system/priv-app/OPSystemUI/OPSystemUI.apk
+  /system/priv-app/OPWifiApSettings/OPWifiApSettings.apk
+  /system/priv-app/SettingsIntelligence/SettingsIntelligence.apk
+  /system/priv-app/TeleService/TeleService.apk
+  /system/priv-app/TelephonyProvider/TelephonyProvider.apk
+  /system/priv-app/UserDictionaryProvider/UserDictionaryProvider.apk
+  /vendor/bin/logwrapper
+  /vendor/bin/vndservice
+  /vendor/lib/libreference-ril.so
+  /vendor/lib/libril.so
+  /vendor/lib/soundfx/libaudiopreprocessing.so
+  /vendor/lib/soundfx/libbundlewrapper.so
+  /vendor/lib/soundfx/libdownmix.so
+  /vendor/lib/soundfx/libreverbwrapper.so
+  /vendor/lib/soundfx/libvisualizer.so
+  /vendor/lib/vndk/libstagefright_foundation.so
+  /vendor/lib/vndk/libstagefright_omx.so
+  /vendor/lib64/libreference-ril.so
+  /vendor/lib64/libril.so
+  /vendor/lib64/soundfx/libaudiopreprocessing.so
+  /vendor/lib64/soundfx/libbundlewrapper.so
+  /vendor/lib64/soundfx/libdownmix.so
+  /vendor/lib64/soundfx/libreverbwrapper.so
+  /vendor/lib64/soundfx/libvisualizer.so
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-   1. Definitions.
+Copyright (c) 2005-2008, The Android Open Source Project
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+                             Apache License
+                       Version 2.0, January 2004
+                    http://www.apache.org/licenses/
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+1. Definitions.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+   "License" shall mean the terms and conditions for use, reproduction,
+   and distribution as defined by Sections 1 through 9 of this document.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+   "Licensor" shall mean the copyright owner or entity authorized by
+   the copyright owner that is granting the License.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+   "Legal Entity" shall mean the union of the acting entity and all
+   other entities that control, are controlled by, or are under common
+   control with that entity. For the purposes of this definition,
+   "control" means (i) the power, direct or indirect, to cause the
+   direction or management of such entity, whether by contract or
+   otherwise, or (ii) ownership of fifty percent (50%) or more of the
+   outstanding shares, or (iii) beneficial ownership of such entity.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+   "You" (or "Your") shall mean an individual or Legal Entity
+   exercising permissions granted by this License.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+   "Source" form shall mean the preferred form for making modifications,
+   including but not limited to software source code, documentation
+   source, and configuration files.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+   "Object" form shall mean any form resulting from mechanical
+   transformation or translation of a Source form, including but
+   not limited to compiled object code, generated documentation,
+   and conversions to other media types.
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+   "Work" shall mean the work of authorship, whether in Source or
+   Object form, made available under the License, as indicated by a
+   copyright notice that is included in or attached to the work
+   (an example is provided in the Appendix below).
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+   "Derivative Works" shall mean any work, whether in Source or Object
+   form, that is based on (or derived from) the Work and for which the
+   editorial revisions, annotations, elaborations, or other modifications
+   represent, as a whole, an original work of authorship. For the purposes
+   of this License, Derivative Works shall not include works that remain
+   separable from, or merely link (or bind by name) to the interfaces of,
+   the Work and Derivative Works thereof.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+   "Contribution" shall mean any work of authorship, including
+   the original version of the Work and any modifications or additions
+   to that Work or Derivative Works thereof, that is intentionally
+   submitted to Licensor for inclusion in the Work by the copyright owner
+   or by an individual or Legal Entity authorized to submit on behalf of
+   the copyright owner. For the purposes of this definition, "submitted"
+   means any form of electronic, verbal, or written communication sent
+   to the Licensor or its representatives, including but not limited to
+   communication on electronic mailing lists, source code control systems,
+   and issue tracking systems that are managed by, or on behalf of, the
+   Licensor for the purpose of discussing and improving the Work, but
+   excluding communication that is conspicuously marked or otherwise
+   designated in writing by the copyright owner as "Not a Contribution."
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+   "Contributor" shall mean Licensor and any individual or Legal Entity
+   on behalf of whom a Contribution has been received by Licensor and
+   subsequently incorporated within the Work.
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+2. Grant of Copyright License. Subject to the terms and conditions of
+   this License, each Contributor hereby grants to You a perpetual,
+   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+   copyright license to reproduce, prepare Derivative Works of,
+   publicly display, publicly perform, sublicense, and distribute the
+   Work and such Derivative Works in Source or Object form.
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+3. Grant of Patent License. Subject to the terms and conditions of
+   this License, each Contributor hereby grants to You a perpetual,
+   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+   (except as stated in this section) patent license to make, have made,
+   use, offer to sell, sell, import, and otherwise transfer the Work,
+   where such license applies only to those patent claims licensable
+   by such Contributor that are necessarily infringed by their
+   Contribution(s) alone or by combination of their Contribution(s)
+   with the Work to which such Contribution(s) was submitted. If You
+   institute patent litigation against any entity (including a
+   cross-claim or counterclaim in a lawsuit) alleging that the Work
+   or a Contribution incorporated within the Work constitutes direct
+   or contributory patent infringement, then any patent licenses
+   granted to You under this License for that Work shall terminate
+   as of the date such litigation is filed.
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+4. Redistribution. You may reproduce and distribute copies of the
+   Work or Derivative Works thereof in any medium, with or without
+   modifications, and in Source or Object form, provided that You
+   meet the following conditions:
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+   (a) You must give any other recipients of the Work or
+       Derivative Works a copy of this License; and
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+   (b) You must cause any modified files to carry prominent notices
+       stating that You changed the files; and
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+   (c) You must retain, in the Source form of any Derivative Works
+       that You distribute, all copyright, patent, trademark, and
+       attribution notices from the Source form of the Work,
+       excluding those notices that do not pertain to any part of
+       the Derivative Works; and
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+   (d) If the Work includes a "NOTICE" text file as part of its
+       distribution, then any Derivative Works that You distribute must
+       include a readable copy of the attribution notices contained
+       within such NOTICE file, excluding those notices that do not
+       pertain to any part of the Derivative Works, in at least one
+       of the following places: within a NOTICE text file distributed
+       as part of the Derivative Works; within the Source form or
+       documentation, if provided along with the Derivative Works; or,
+       within a display generated by the Derivative Works, if and
+       wherever such third-party notices normally appear. The contents
+       of the NOTICE file are for informational purposes only and
+       do not modify the License. You may add Your own attribution
+       notices within Derivative Works that You distribute, alongside
+       or as an addendum to the NOTICE text from the Work, provided
+       that such additional attribution notices cannot be construed
+       as modifying the License.
 
-   END OF TERMS AND CONDITIONS
+   You may add Your own copyright statement to Your modifications and
+   may provide additional or different license terms and conditions
+   for use, reproduction, or distribution of Your modifications, or
+   for any such Derivative Works as a whole, provided Your use,
+   reproduction, and distribution of the Work otherwise complies with
+   the conditions stated in this License.
 
-   APPENDIX: How to apply the Apache License to your work.
+5. Submission of Contributions. Unless You explicitly state otherwise,
+   any Contribution intentionally submitted for inclusion in the Work
+   by You to the Licensor shall be under the terms and conditions of
+   this License, without any additional terms or conditions.
+   Notwithstanding the above, nothing herein shall supersede or modify
+   the terms of any separate license agreement you may have executed
+   with Licensor regarding such Contributions.
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+6. Trademarks. This License does not grant permission to use the trade
+   names, trademarks, service marks, or product names of the Licensor,
+   except as required for reasonable and customary use in describing the
+   origin of the Work and reproducing the content of the NOTICE file.
 
-   Copyright [yyyy] [name of copyright owner]
+7. Disclaimer of Warranty. Unless required by applicable law or
+   agreed to in writing, Licensor provides the Work (and each
+   Contributor provides its Contributions) on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+   implied, including, without limitation, any warranties or conditions
+   of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+   PARTICULAR PURPOSE. You are solely responsible for determining the
+   appropriateness of using or redistributing the Work and assume any
+   risks associated with Your exercise of permissions under this License.
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+8. Limitation of Liability. In no event and under no legal theory,
+   whether in tort (including negligence), contract, or otherwise,
+   unless required by applicable law (such as deliberate and grossly
+   negligent acts) or agreed to in writing, shall any Contributor be
+   liable to You for damages, including any direct, indirect, special,
+   incidental, or consequential damages of any character arising as a
+   result of this License or out of the use or inability to use the
+   Work (including but not limited to damages for loss of goodwill,
+   work stoppage, computer failure or malfunction, or any and all
+   other commercial damages or losses), even if such Contributor
+   has been advised of the possibility of such damages.
 
-       http://www.apache.org/licenses/LICENSE-2.0
+9. Accepting Warranty or Additional Liability. While redistributing
+   the Work or Derivative Works thereof, You may choose to offer,
+   and charge a fee for, acceptance of support, warranty, indemnity,
+   or other liability obligations and/or rights consistent with this
+   License. However, in accepting such obligations, You may act only
+   on Your own behalf and on Your sole responsibility, not on behalf
+   of any other Contributor, and only if You agree to indemnify,
+   defend, and hold each Contributor harmless for any liability
+   incurred by, or claims asserted against, such Contributor by reason
+   of your accepting any such warranty or additional liability.
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+END OF TERMS AND CONDITIONS
